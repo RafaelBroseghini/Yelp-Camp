@@ -5,7 +5,7 @@ at some point. :smile:
 * **If you like camping and things related to it, see my other app -> [Park-Ometer](https://github.com/RafaelBroseghini/Park-Ometer)**
 
 ## Features:
-* AuthO using [passport.js](http://www.passportjs.org/)
+* OAuth using [passport.js](http://www.passportjs.org/)
 * User Reviews
 * RESTful routing
 * CRUD reviews and campsites
