@@ -20,6 +20,7 @@ router.post("/", function(req, res){
       description = req.body.description;
   var newCampground = {name:name, image:image, description:description}
   Campground.create(newCampground, function(err, newlyCreated){
+    console.log(newlyCreated);
     if (err) {   
       res.redirect("campgrounds/new");
     } else {
